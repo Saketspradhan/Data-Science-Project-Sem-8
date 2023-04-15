@@ -14,7 +14,7 @@ def visualize(X, y, y_pred, sample_num, figsize=(10, 10), cmap='viridis'):
     fig, axis = plt.subplots(1, 2, figsize=figsize)
     axis[0].imshow(x, cmap='gray')
     axis[0].imshow(y_np, cmap=cmap, alpha=0.3)
-    axis[0].set_title("original labels")
+    axis[0].set_title("Original Masks")
     axis[1].imshow(x, cmap='gray')
     axis[1].imshow(y_class, cmap=cmap, alpha=0.3)
     axis[1].set_title("predicted labels")
@@ -38,7 +38,7 @@ def visualize_non_empty_predictions(X, y, models, figsize=(10, 10), cmap=pl.cm.t
 
         axis[0].imshow(x, cmap='gray')
         axis[0].imshow(y_np, cmap=my_cmap, alpha=alpha)
-        axis[0].set_title("original labels")
+        axis[0].set_title("Original Masks")
         axis[0].set_xticks([])
         axis[0].set_yticks([])
 

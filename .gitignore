@@ -6,3 +6,4 @@ __pycache__/
 *.py[cod]
 *$py.class
 models/vit_checkpoint/R50+ViT-B_16.npz
+

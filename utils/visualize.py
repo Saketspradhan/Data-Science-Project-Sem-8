@@ -55,3 +55,4 @@ def visualize_non_empty_predictions(X, y, models, figsize=(10, 10), cmap=pl.cm.t
             axis[i+1].set_yticks([])
 
         plt.show()
+        

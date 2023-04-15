@@ -1,4 +1,4 @@
-# TransUNet
+# Data Science Project: Medical Image Segmentation with Vision Transformers
 
 This repo reproduces the results of  [TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation](https://arxiv.org/pdf/2102.04306.pdf) as a final project for the course Deep Learning in Data Science DD2424 @ KTH (Royal Institute of Technology)
 
